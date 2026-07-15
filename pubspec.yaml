@@ -1,0 +1,20 @@
+name: linguaforge_ai
+description: AI-Powered Professional English Learning App
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  http: ^1.2.0
+  speech_to_text: ^6.6.0
+  flutter_tts: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
